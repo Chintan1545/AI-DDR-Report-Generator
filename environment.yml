@@ -1,0 +1,17 @@
+name: ai_ddr_final
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - streamlit
+      - langchain==0.2.16
+      - langchain-core==0.2.38
+      - langchain-community==0.2.16
+      - langchain-groq
+      - langchain-text-splitters
+      - faiss-cpu
+      - sentence-transformers
+      - pymupdf
+      - python-dotenv
