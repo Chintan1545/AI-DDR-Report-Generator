@@ -89,7 +89,7 @@ Display Report + Images
 
 👉 Screenshots:
 ## Uploaded PDF Interface  
-![Images](screenshots/images.png)
+![Images](Screenshot1.png)
 
 ## DDR Report Output 
 ![Images](screenshots/images.png)
