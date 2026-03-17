@@ -92,7 +92,7 @@ Display Report + Images
 ![Images](Screenshot1.png)
 
 ## DDR Report Output 
-![Images](screenshots/images.png)
+![Images](Screenshot2.png)
  
 ---
 
