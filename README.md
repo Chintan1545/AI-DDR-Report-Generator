@@ -26,6 +26,33 @@ This project builds an **AI-powered system** that automatically converts:
 
 ---
 
+## 🏗 Final Project Structure
+```bash
+ai-ddr-generator/
+│
+├── app.py                  # Streamlit UI (main entry point)
+├── rag_pipeline.py        # RAG + Groq LLM logic
+├── pdf_utils.py           # PDF text extraction & chunking
+├── image_utils.py         # Image extraction from PDFs
+│
+├── requirements.txt       # Python dependencies
+├── environment.yml        # Conda environment (optional)
+├── .env                   # API keys (NOT pushed to GitHub)
+├── .gitignore
+│
+├── data/                  # Input PDFs (runtime)
+│   ├── inspection.pdf
+│   └── thermal.pdf
+│
+├── images/                # Extracted images
+│   ├── img_0_0.png
+│   └── ...
+│
+└── README.md              # Project documentation
+```
+
+---
+
 ## 🛠 Tech Stack
 
 - **Python**
